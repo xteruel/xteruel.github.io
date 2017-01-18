@@ -3,7 +3,7 @@ layout: post
 title: "UAM Course: Parallel Programming"
 description: "Parallel programming course based on different HPC tools: MPI, OpenMP, Paraver, etc."
 date: 2016-10-02
-tags: [tutorial, madrid]
+:x
 comments: true
 share: true
 ---
@@ -20,5 +20,4 @@ compartida (OpenMP). También se presentarán algunas herramientas útiles en la
 depuración como Valgrind, Paraver y Tareador.
 
 ## MORE INFO
-http://www.uam.es/ss/Satellite/es/1234886350331/1242701131630/evento/evento/Curso__Parallel_Programming_with_MPI_and_OpenMP_.htm
 
