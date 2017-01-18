@@ -3,7 +3,7 @@ name:               "Xavier Teruel"
 
 # Author information
 author:
-  name:             Xavier Teruel
+  name:             "Xavier Teruel"
   facebook:         xteruel
   twitter:          xavierteruel
   github:           xteruel
@@ -11,8 +11,8 @@ author:
   email:            your-id@your-email.com
 
 # Google-analytics
-google-analytics:
-  id:               ""
+#google-analytics:
+#  id:               ""
 
 # URL
 url:                "https://xteruel.github.io"
@@ -40,4 +40,3 @@ nav:
 sass:
   sass_dir:         _sass
   style:            :compressed
-
