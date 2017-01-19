@@ -3,7 +3,7 @@ layout: post
 title: "UAM Course: Parallel Programming"
 description: "Parallel programming course based on different HPC tools: MPI, OpenMP, Paraver, etc."
 date: 2016-10-02
-:x
+tags: [BSC, tutorial, OpenMP]
 comments: true
 share: true
 ---
