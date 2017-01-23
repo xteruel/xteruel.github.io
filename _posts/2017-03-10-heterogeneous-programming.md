@@ -8,9 +8,9 @@ comments: true
 share: true
 ---
 
-*Venue*: Barcelona, SPAIN
-*Event date*: May 10-11th, 2017
-*Speakers*: Xavier Martorell
+ * *Venue*: Barcelona, SPAIN
+ * *Event date*: May 10-11th, 2017
+ * *Speakers*: Xavier Martorell
 
 ## Contents
 
