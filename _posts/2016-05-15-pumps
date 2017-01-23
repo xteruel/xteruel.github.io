@@ -1,0 +1,27 @@
+---
+layout: post
+title: "OmpSs tutorial at PUMPS"
+description: "OmpSs tutorial at PUMPS"
+date: 2016-05-15
+tags: [BSC, teaching, OmpSs, CUDA]
+comments: true
+share: true
+---
+
+*Venue*: Barcelona, SPAIN
+*Event date*: July 15th, 2016
+*Speakers*: Xavier Martorell & Xavier Teruel
+
+## Contents
+
+The sixth edition of the Programming and Tuning Massively Parallel Systems
+summer school (PUMPS) is aimed at enriching the skills of researchers, graduate
+students and teachers with cutting-edge technique and hands-on experience in
+developing applications for many-core processors with massively parallel
+computing resources like GPU accelerators.
+
+## External references
+
+http://bcw.ac.upc.edu/PUMPS2016/
+
+
