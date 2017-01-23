@@ -40,6 +40,6 @@ nav:
 sass:
   sass_dir:         _sass
   style:            :compressed
-# Gems
 
+# Gems
 gems: [jekyll-paginate]
