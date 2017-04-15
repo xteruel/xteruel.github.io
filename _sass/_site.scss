@@ -22,13 +22,13 @@ body {
 }
 
 .main {
-  max-width: 80rem;
-  min-width: 60rem;
+  max-width: 70rem;
+  min-width: 50rem;
   padding: 0rem 0rem;
   margin-left:  auto;
   margin-right: auto;
   text-align: left;
-  @media (max-width: 90rem){
+  @media (max-width: 80rem){
     display: inline;
     max-width: 60rem ;
     min-width: 40rem;
@@ -42,7 +42,7 @@ body {
   padding: 0rem 1rem;
   margin-left:  auto;
   margin-right: auto;
-  @media (max-width: 90rem){
+  @media (max-width: 80rem){
     display: inline;
     max-width: 60rem ;
     min-width: 40rem;
@@ -52,12 +52,12 @@ body {
 .sidebar {
   float: right;
   max-width: 25%;
-  min-width: 20rem;
+  min-width: 10rem;
   padding: 0rem 1rem;
   margin-left:  auto;
   margin-right: auto;
 
-  @media (max-width: 90rem){
+  @media (max-width: 80rem){
     display: inline;
     float: left;
     max-width: 60rem ;
@@ -74,12 +74,12 @@ body {
 }
 
 .footer {
-  max-width: 80rem;
-  min-width: 60rem;
+  max-width: 70rem;
+  min-width: 50rem;
   padding: 0rem 0rem;
   margin-left:  auto;
   margin-right: auto;
-  @media (max-width: 90rem){
+  @media (max-width: 80rem){
     display: inline;
     float: left;
     max-width: 60rem ;
@@ -101,8 +101,8 @@ body {
 }
 
 .header {
-  max-width: 80rem;
-  min-width: 20rem;
+  max-width: 70rem;
+  min-width: 50rem;
   padding: 1rem 1rem;
 
   margin-left:  auto;
