@@ -3,7 +3,7 @@ layout: post
 kind: teaching
 short: "PATC (May, 2017)"
 title: "Heterogeneous Programming on GPUs with MPI + OmpSs"
-description: "Heterogeneous Programming on GPUs with MPI + OmpSs"
+description: "The tutorial will motivate the audience on the need for portable and efficient programming models in order to get good performance in clusters with GPUs."
 date: 2017-04-10
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
 event: 2017-05-10
