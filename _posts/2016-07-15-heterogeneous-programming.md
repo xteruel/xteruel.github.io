@@ -1,18 +1,19 @@
 ---
 layout: post
+kind: teaching
+short: "PACT 2016"
 title: "Heterogeneous Parallel Programming with OmpSs"
 description: "Heterogeneous Parallel Programming with OmpSs"
 date: 2016-07-15
-tags: [BSC, teaching, OmpSs, CUDA, FPGAs]
+venue: Technion University. Haifa, ISRAEL
+event: 2016-09-15
+speakers: "Xavier Martorell & Xavier Teruel"
+tags: [OmpSs, CUDA, FPGAs]
 comments: true
 share: true
 ---
 
-*Venue*: Haifa, ISRAEL
-*Event date*: September 15th, 2016
-*Speakers*: Xavier Martorell & Xavier Teruel
-
-## Contents
+### Contents
 
 This tutorial will show the OmpSs Programming Model. It will be based on both
 teaching and laboratory sessions. OmpSs is a programming model developed at BSC
@@ -39,7 +40,7 @@ multiplication, nbody, 3d-stencil, merge-sort, histogram...), and learn better
 the details of the OmpSs support for both the SMP and heterogeneous
 architectures.
 
-## Agenda
+### Agenda
 
  * Session 1. Introduction to OmpSs (8.00 - 10:00)
    * OmpSs tasking (fundamentals of OmpSs)
@@ -61,6 +62,6 @@ architectures.
    * Exploiting parallelism on FPGA devices
    * Integrating the development environment with support for FPGAs
 
-## External references
+### External references
 
 

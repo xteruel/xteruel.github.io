@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "ITN Course: Parallel Programming Workshop"
-description: "ITN Course: Parallel Programming Workshop"
+kind: teaching
+short: "ITN Tutorial 2015"
+title: "ITN Tutorial: Parallel Programming Workshop"
+description: "he objectives of this course are to understand the fundamental concepts supporting message-passing and shared memory programming models."
 date: 2015-11-18
-tags: [BSC, teaching, OmpSs, CUDA]
+venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
+event: 2016-01-18
+speakers: "Xavier Teruel & Xavier Martorell"
+tags: [OmpSs, CUDA]
 comments: true
 share: true
 ---
 
-*Venue*: Barcelona, SPAIN
-*Event date*: January 18-22th, 2016
-*Speakers*: Xavier Teruel & Xavier Martorell
-
-## Contents
+### Contents
 
 The objectives of this course are to understand the fundamental concepts
 supporting message-passing and shared memory programming models. The course
@@ -23,7 +24,7 @@ parallel applications, Paraver and Extrae. Moreover it sets the basic
 foundations related with task decomposition and parallelization inhibitors,
 using a tool to analyze potential parallelism and dependences, Tareador.
 
-## External references
+### External references
 
-https://www.bsc.es/marenostrum-support-services/hpc-education-and-training/2015-16-workshops-and-seasonal-schools/tccm
+<https://www.bsc.es/marenostrum-support-services/hpc-education-and-training/2015-16-workshops-and-seasonal-schools/tccm>
 

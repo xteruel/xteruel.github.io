@@ -1,13 +1,8 @@
 ---
-layout: default
+layout: common
 ---
-<header>
-  <h1 class="header-small">
-    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
-  </h1>
-</header>
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h2 class="post-title">{{ page.title }}</h2>
   <span class="post-date">
     <time>{{ page.date | date_to_string }}</time>
   </span>
@@ -26,6 +21,9 @@ layout: default
   </div>
 -->
 
+  {% if page.kind == "teaching" %} {% include post-teaching.html %} {% endif %}
+  {% if page.kind == "publication" %} {% include post-publication.html %} {% endif %}
+  {% if page.kind == "blog" %} {% include post-blog.html %} {% endif %}
   {{ content }}
 
 </div>

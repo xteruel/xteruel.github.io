@@ -1,18 +1,19 @@
 ---
 layout: post
+kind: teaching
+short: "PATC (May, 2017)"
 title: "Heterogeneous Programming on GPUs with MPI + OmpSs"
 description: "Heterogeneous Programming on GPUs with MPI + OmpSs"
-date: 2017-03-10
-tags: [BSC, teaching, MPI, OmpSs]
+date: 2017-04-10
+venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
+event: 2017-05-10
+speakers: "Xavier Martorell"
+tags: [MPI, OmpSs]
 comments: true
 share: true
 ---
 
- * *Venue*: Barcelona, SPAIN
- * *Event date*: May 10-11th, 2017
- * *Speakers*: Xavier Martorell
-
-## Contents
+### Contents
 
 The tutorial will motivate the audience on the need for portable, efficient programming models that put less pressure on program developers while still getting good performance for clusters and clusters with GPUs.
  
@@ -22,7 +23,7 @@ Demonstrate how to use MPI/OmpSs to incrementally parallelize/optimize:
 MPI applications on clusters of SMPs, and
 Leverage CUDA kernels with OmpSs on clusters of GPUs
 
-## Agenda
+### Agenda
 
  * Day 1
    * 09.00h – Introduction to OmpSs
@@ -36,7 +37,7 @@ Leverage CUDA kernels with OmpSs on clusters of GPUs
    * 13.00h – Lunch Break
    * 14.00h – Free hands-on session
 
-## External references
+### External references
 
-https://www.bsc.es/education/training/patc-courses/patc-course-heterogeneous-programming-gpus-mpi-ompss-2
+<https://www.bsc.es/education/training/patc-courses/patc-course-heterogeneous-programming-gpus-mpi-ompss-2>
 

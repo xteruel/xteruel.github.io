@@ -1,16 +1,17 @@
 ---
 layout: post
+kind: teaching
+short: "PATC (October, 2016)"
 title: "Parallel Programming Workshop"
 description: "Parallel Programming Workshop"
 date: 2016-08-26
-tags: [BSC, teaching, MPI, OpenMP]
+venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
+event: 2016-10-26
+speakers: "Xavier Teruel & Xavier Martorell"
+tags: [MPI, OpenMP]
 comments: true
 share: true
 ---
-
-*Venue*: Barcelona, SPAIN
-*Event date*: October 26-28th, 2016
-*Speakers*: Xavier Teruel & Xavier Martorell
 
 ## Contents
 

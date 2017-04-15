@@ -10,8 +10,8 @@ html {
   font-weight: 300;
   line-height: 1.6;
 
-  @media (min-width: 38em) {
-    font-size: 20px;
+  @media (min-width: 20em) {
+    font-size: 18px;
   }
 }
 
@@ -21,21 +21,95 @@ body {
   padding: 0;
 }
 
-.content-container {
-  max-width: 38rem;
-  padding: 2rem 1.3rem;
+.main {
+  max-width: 80rem;
+  min-width: 60rem;
+  padding: 0rem 0rem;
   margin-left:  auto;
   margin-right: auto;
-
-  @media (min-width: 38rem){
-    padding: 5rem 1rem;
+  text-align: left;
+  @media (max-width: 90rem){
+    display: inline;
+    max-width: 60rem ;
+    min-width: 40rem;
   }
 }
 
+.content {
+  float: left;
+  max-width: 75% ;
+  min-width: 40rem;
+  padding: 0rem 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+  @media (max-width: 90rem){
+    display: inline;
+    max-width: 60rem ;
+    min-width: 40rem;
+  }
+}
 
-/*-------------- Header -------------- */
+.sidebar {
+  float: right;
+  max-width: 25%;
+  min-width: 20rem;
+  padding: 0rem 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+
+  @media (max-width: 90rem){
+    display: inline;
+    float: left;
+    max-width: 60rem ;
+    min-width: 40rem;
+  }
+
+  &-link {
+    margin: .2rem;
+    a {
+      color: $base-color;
+      margin: 4px;
+    }
+  }
+}
+
+.footer {
+  max-width: 80rem;
+  min-width: 60rem;
+  padding: 0rem 0rem;
+  margin-left:  auto;
+  margin-right: auto;
+  @media (max-width: 90rem){
+    display: inline;
+    float: left;
+    max-width: 60rem ;
+    min-width: 40rem;
+    color: blue;
+  }
+
+  text-align: center;
+  font-size: .75rem;
+
+  &-link {
+    margin: .2rem;
+
+    a {
+      color: $base-color;
+      margin: 4px;
+    }
+  }
+}
+
 .header {
-  padding: 2%;
+  max-width: 80rem;
+  min-width: 20rem;
+  padding: 1rem 1rem;
+
+  margin-left:  auto;
+  margin-right: auto;
+  @media (min-width: 20rem){
+    padding: 1rem 1rem;
+  }
 
   &-title {
     font-weight: 300;
@@ -104,6 +178,11 @@ body {
 
 /*-------------- Post -------------- */
 .post {
+
+  &-teaching {
+     padding: 1rem 0rem;
+     display: block;
+  }
 
   &-title {
     margin-bottom: 0rem;
@@ -268,50 +347,40 @@ body {
   }
 }
 
-/*-------------- Archive -------------- */
-.archive {
-  &-list {
-    &-post {
-
-      a {
-        color: $base-color;
-
-        &:hover {
-  				color: $base-color;
-  				text-decoration: none;
-  				background-color: $background-over-color;
-  		    border-color: transparent;
-        }
-
+.sidebar {
+   a {
+      color: $base-color;
+      &:hover {
+         color: $base-color;
+         text-decoration: none;
+         background-color: $background-over-color;
+         border-color: transparent;
       }
-
-
-      &-title {
-        font-size : 1.2rem;
-        font-weight: 600;
-      }
-
-      &-date {
-        color: $base-lighten-color;
-        font-size: .75rem;
-        text-transform: uppercase;
-      }
-    }
-  }
+   }
+   &-title {
+      font-size : 1.2rem;
+      font-weight: 600;
+      display: block;
+   }
+   &-date {
+      font-size: .75rem;
+      color: $base-lighten-color;
+      text-transform: uppercase;
+      display: block;
+   }
+   &-description {
+      font-size : 1rem;
+      display: block;
+   }
 }
 
-
-/*-------------- Footer -------------- */
-.footer {
-  text-align: center;
-  font-size: .75rem;
-
-  &-link {
-    margin: .2rem;
-
-    a {
-      color: $base-color;
-      margin: 4px;
-    }
-  }
+.pair {
+   display: block;
+   .key {
+      font-weight: 900;
+      display: inline;
+   }
+   .value {
+      display: inline;
+   }
 }

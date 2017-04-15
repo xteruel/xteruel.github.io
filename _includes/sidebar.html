@@ -1,0 +1,22 @@
+<div class="sidebar">
+  {% if site.posts.size == 0 %}
+      <!-- No requested news for this page or no news found -->
+  {% else %}
+   <h2>News & Events</h2>
+  {% for post in site.posts %}
+    <div class="archive-list-post">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <span class="sidebar-title">
+          {{ post.short }}
+        </span>
+        <span class="sidebar-date">
+          <time>| {{ post.date | date_to_string }}</time>
+        </span>
+        <span class="sidebar-description">
+          {{ post.description }}
+        </span>
+      </a>
+    </div>
+  {% endfor %}
+  {% endif %}
+</div>
