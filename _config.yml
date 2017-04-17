@@ -30,6 +30,8 @@ kramdown:
 
 # Navigation
 nav:
+  - name:           "bio"
+    url:            ""
 #  - name:           "cv"
 #    url:            "/cv"
 #  - name:           "archive"
