@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 kind: teaching
 short: "PATC (May, 2017)"
 title: "Heterogeneous Programming on GPUs with MPI + OmpSs"

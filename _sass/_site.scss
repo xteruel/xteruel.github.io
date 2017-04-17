@@ -184,6 +184,14 @@ body {
      display: block;
   }
 
+  &-publication {
+     padding: 1rem 0rem;
+     display: block;
+     .title {
+        font-weight: 900;
+     }
+  }
+
   &-title {
     margin-bottom: 0rem;
   }
