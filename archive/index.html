@@ -3,49 +3,39 @@ layout: default
 place: blog
 title: Archive list
 ---
-<div class="archive">
-  <div class="archive-list">
-  {% if site.posts.size == 0 %}
-    <h2>No post found</h2>
-  {% else %}
-  {% for post in site.posts %}
-    <div class="archive-list-post">
+<!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+    <div class="post-item">
       {% if post.link %}
-      <a href="{{ post.link }}">
+        <a href="{{ post.link }}">
       {% else %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}  
-        <span class="archive-list-post-title">
-          {{ post.title }}
-        </span>
-        <span class="archive-list-post-date">
-          <time>| {{ post.date | date_to_string }}</time>
-        </span>
-      </a>
+          <span class="post-item-title"> {{ post.title }} </span>
+          <span class="post-item-date"> <time>| {{ post.date | date_to_string }}</time> </span>
+          <span class="post-item-excerpt"> {{ post.excerpt }} </span>
+        </a>
     </div>
   {% endfor %}
-    <div class="list-pagination">
-      <span class="list-pagination-previous">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            Previous
-          </a>
-        {% else %}
+  <div class="pagination">
+    <span class="pagination-previous">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+          Previous
+        </a>
+      {% else %}
 
-        {% endif %}
-      </span>
-      <span class="list-pagination-next">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-            Next
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-          </a>
-        {% else %}
+      {% endif %}
+    </span>
+    <span class="pagination-next">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+          Next
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </a>
+      {% else %}
 
-        {% endif %}
-      </span>
-    </div>
-  {% endif %}
+      {% endif %}
+    </span>
   </div>
-</div>
