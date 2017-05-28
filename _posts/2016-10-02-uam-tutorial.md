@@ -3,7 +3,6 @@ layout: post
 kind: teaching
 short: "UAM Course 2016"
 title: "UAM Course: Parallel Programming"
-description: "Parallel programming course based on different HPC tools: MPI, OpenMP, Paraver, etc."
 date: 2016-10-02
 venue: "Universidad Autonoma de Madrid. Madrid, SPAIN"
 event: 2016-11-02
@@ -12,6 +11,9 @@ tags: [OpenMP]
 comments: true
 share: true
 ---
+
+Parallel programming course based on different HPC tools: MPI, OpenMP, Paraver, etc.
+
 
 ### CONTENTS
 

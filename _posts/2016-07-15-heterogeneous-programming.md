@@ -3,7 +3,6 @@ layout: post
 kind: teaching
 short: "PACT 2016"
 title: "Heterogeneous Parallel Programming with OmpSs"
-description: "Heterogeneous Parallel Programming with OmpSs"
 date: 2016-07-15
 venue: Technion University. Haifa, ISRAEL
 event: 2016-09-15
@@ -13,14 +12,17 @@ comments: true
 share: true
 ---
 
+This tutorial will show Heterogeneous Parallel Programming using the OmpSs
+Programming Model. It will be based on both teaching and laboratory sessions. 
+
+
 ### Contents
 
-This tutorial will show the OmpSs Programming Model. It will be based on both
-teaching and laboratory sessions. OmpSs is a programming model developed at BSC
-that we use as a forerunner for OpenMP. Like OpenMP, it is based on compiler
-directives. It is the base platform where we have developed OpenMP tasking,
-support for dependences, priorities, task reductions, and it also includes
-support for heterogeneous devices.
+OmpSs is a programming model developed at BSC that we use as a forerunner for
+OpenMP. Like OpenMP, it is based on compiler directives. It is the base
+platform where we have developed OpenMP tasking, support for dependences,
+priorities, task reductions, and it also includes support for heterogeneous
+devices.
 
 We will introduce the OmpSs basic concepts related to task-based parallelism
 for the SMP cores and then quickly move to the support for heterogeneous

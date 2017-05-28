@@ -13,10 +13,11 @@ comments: true
 share: true
 ---
 
-### Contents
-
 The tutorial will motivate the audience on the need for portable, efficient programming models that put less pressure on program developers while still getting good performance for clusters and clusters with GPUs.
  
+
+### Contents
+
 More specifically, the tutorial will:
 Introduce the hybrid MPI/OmpSs parallel programming model for future exascale systems
 Demonstrate how to use MPI/OmpSs to incrementally parallelize/optimize:

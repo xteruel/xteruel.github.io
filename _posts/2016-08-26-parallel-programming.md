@@ -3,7 +3,6 @@ layout: post
 kind: teaching
 short: "PATC (October, 2016)"
 title: "Parallel Programming Workshop"
-description: "This tutorial will allow attendees to understand the fundamental concepts supporting message-passing and shared memory programming models"
 date: 2016-08-26
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
 event: 2016-10-26
@@ -12,6 +11,10 @@ tags: [MPI, OpenMP]
 comments: true
 share: true
 ---
+
+This tutorial will allow attendees to understand the fundamental concepts
+supporting message-passing and shared memory programming models.
+
 
 ### Contents
 

@@ -3,7 +3,6 @@ layout: post
 kind: teaching
 short: "ITN Tutorial 2015"
 title: "ITN Tutorial: Parallel Programming Workshop"
-description: "he objectives of this course are to understand the fundamental concepts supporting message-passing and shared memory programming models."
 date: 2015-11-18
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
 event: 2016-01-18
@@ -12,6 +11,9 @@ tags: [OmpSs, CUDA]
 comments: true
 share: true
 ---
+
+The objectives of this course are to understand the fundamental concepts supporting message-passing and shared memory programming models.
+
 
 ### Contents
 
