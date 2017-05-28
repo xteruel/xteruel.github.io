@@ -4,19 +4,13 @@
   {% else %}
    <h2>News & Events</h2>
   {% for post in site.posts %}
-    <div class="archive-list-post">
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <span class="side-title">
-          {{ post.short }}
-        </span>
-        <span class="side-date">
-          <time>| {{ post.date | date_to_string }}</time>
-        </span>
-        <span class="side-excerpt">
-          {{ post.excerpt }}
-        </span>
+        <span class="side-title"> {{ post.short }} </span>
       </a>
-    </div>
+      <span class="side-date"> <time>| {{ post.date | date_to_string }}</time> </span>
+      <span class="side-excerpt">
+        {{ post.excerpt }}
+      </span>
   {% endfor %}
   {% endif %}
 </div>
