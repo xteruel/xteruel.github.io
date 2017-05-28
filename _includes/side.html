@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div class="side">
   {% if site.posts.size == 0 %}
       <!-- No requested news for this page or no news found -->
   {% else %}
@@ -6,13 +6,13 @@
   {% for post in site.posts %}
     <div class="archive-list-post">
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <span class="sidebar-title">
+        <span class="side-title">
           {{ post.short }}
         </span>
-        <span class="sidebar-date">
+        <span class="side-date">
           <time>| {{ post.date | date_to_string }}</time>
         </span>
-        <span class="sidebar-excerpt">
+        <span class="side-excerpt">
           {{ post.excerpt }}
         </span>
       </a>
