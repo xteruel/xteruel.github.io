@@ -21,6 +21,13 @@ body {
   padding: 0rem 4rem;
 }
 
+a {
+  color: $base-color;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
 
 .header {
   max-width: 70rem;
@@ -205,17 +212,11 @@ body {
 
 
 /*-------------- Post -------------- */
+
 .post {
   &-teaching {
      padding: 1rem 0rem;
      display: block;
-  }
-  &-publication {
-     padding: 1rem 0rem;
-     display: block;
-     .title {
-        font-weight: 900;
-     }
   }
   &-title {
     margin-bottom: 0rem;
@@ -253,41 +254,7 @@ body {
   }
 }
 
-.post-item {
-    padding: 0px 0px; 
-    &:hover {
-    background-color: $background-over-color;
-    border-color: transparent;
-    border-radius: 10px;
-    }
 
-    a {
-      color: $base-color;
-
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }
-    }
-
-    &-title {
-      margin-bottom: .25rem;
-      font-size : 1.2rem;
-      font-weight: 600;
-    }
-
-    &-date {
-      color: $base-lighten-color;
-      font-size: .75rem;
-      text-transform: uppercase;
-    }
-
-    &-excerpt {
-			color: lighten($base-color, 20);
-      margin-bottom: .25rem;
-      font-size :1rem;
-    }
-}
 .pagination {
     padding-top: 2rem;
     padding-bottom: 2rem;
