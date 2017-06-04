@@ -2,8 +2,8 @@
   {% if site.posts.size == 0 %}
       <!-- No requested news for this page or no news found -->
   {% else %}
-   <h2>News & Events</h2>
-  {% for post in site.posts %}
+    <h1>News & Events</h1>
+    {% for post in site.posts limit: 5 %}
       <a href="{{ post.url | prepend: site.baseurl }}">
         <span class="side-title"> {{ post.short }} </span>
       </a>
@@ -11,6 +11,6 @@
       <span class="side-excerpt">
         {{ post.excerpt }}
       </span>
-  {% endfor %}
+    {% endfor %}
   {% endif %}
 </div>

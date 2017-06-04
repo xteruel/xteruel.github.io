@@ -16,7 +16,7 @@ share: true
 The tutorial will motivate the audience on the need for portable, efficient programming models that put less pressure on program developers while still getting good performance for clusters and clusters with GPUs.
  
 
-### Contents
+## Contents
 
 More specifically, the tutorial will:
 Introduce the hybrid MPI/OmpSs parallel programming model for future exascale systems
@@ -24,7 +24,7 @@ Demonstrate how to use MPI/OmpSs to incrementally parallelize/optimize:
 MPI applications on clusters of SMPs, and
 Leverage CUDA kernels with OmpSs on clusters of GPUs
 
-### Agenda
+## Agenda
 
  * Day 1
    * 09.00h – Introduction to OmpSs
