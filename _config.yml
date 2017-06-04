@@ -40,8 +40,8 @@ nav:
 #    url:            "/blog"
   - name:           "publications"
     url:            "/publications"
-#  - name:           "teaching"
-#    url:            "/teaching"
+  - name:           "teaching"
+    url:            "/teaching"
   - name:           "tags"
     url:            "/tags"
 

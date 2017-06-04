@@ -1,14 +1,6 @@
 ---
 layout: common
 ---
-{% if page.title %}
-   <h1 class="post-title">{{ page.title }}</h1>
-{% endif %}
-{% if page.date %}
-  <span class="post-date">
-    <time>{{ page.date | date_to_string }}</time>
-  </span>
-{% endif %}
 
 {% if page.kind == "teaching" %} 
 <span class="post-teaching">
