@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 kind: teaching
 short: "PACT 2016"
 title: "Heterogeneous Parallel Programming with OmpSs"

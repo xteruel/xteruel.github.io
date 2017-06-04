@@ -3,13 +3,18 @@ layout: default
 categories: publications
 title: List of publications
 ---
-{% for post in site.categories["publications"] %}
+{% assign numPosts = site.categories["publications"] | size %}
+{% for pub in site.categories["publications"] %}
    <span class="publication-item">
-      <span class="authors">{{ post.people }}.</span>
-      <span class="title">{{ post.title }}.</span>
-      <span class="info">{{ post.info }}.</span>
-      <span class="event">{{ post.event | date: "%b, %Y" }}.</span>
-      <span class="venue">{{ post.venue }}.</span>
+      <span class="id"> \[{{ numPosts }}\] </span>
+      <span class="authors">{{ pub.people }}.</span>
+      <a href="{{ pub.url | prepend: site.baseurl }}">
+      <span class="title">{{ pub.title }}.</span>
+      </a>
+      <span class="info">{{ pub.info }}.</span>
+      <span class="event">{{ pub.event | date: "%b, %Y" }}.</span>
+      <span class="venue">{{ pub.venue }}.</span>
    </span>
+   {% assign numPosts = numPosts | minus: 1 %}
 {% endfor %}
 
