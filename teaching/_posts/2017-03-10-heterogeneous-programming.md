@@ -1,6 +1,5 @@
 ---
-layout: default
-kind: teaching
+layout: teaching
 short: "PATC (May, 2017)"
 title: "Heterogeneous Programming on GPUs with MPI + OmpSs"
 description: "The tutorial will motivate the audience on the need for portable and efficient programming models in order to get good performance in clusters with GPUs."

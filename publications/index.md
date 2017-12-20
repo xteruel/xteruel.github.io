@@ -1,7 +1,6 @@
 ---
 layout: default
-categories: publications
-title: List of publications
+title: publications
 ---
 {% assign numPosts = site.categories["publications"] | size %}
 {% for pub in site.categories["publications"] %}

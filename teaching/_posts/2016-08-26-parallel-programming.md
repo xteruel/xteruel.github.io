@@ -1,6 +1,5 @@
 ---
-layout: post
-kind: teaching
+layout: teaching
 short: "PATC (October, 2016)"
 title: "Parallel Programming Workshop"
 date: 2016-08-26

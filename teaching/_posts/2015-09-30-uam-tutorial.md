@@ -1,6 +1,5 @@
 ---
-layout: post
-kind: teaching
+layout: teaching
 title: "UAM Tutorial: Parallel Programming with MPI and OpenMP"
 short: "UAM Tutorial (2015)"
 date: 2015-09-30

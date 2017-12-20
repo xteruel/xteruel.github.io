@@ -1,33 +1,10 @@
----
-layout: common
----
-{% if page.kind == "teaching" %} 
-<span class="post-teaching">
-   <span class="pair">
-      <span class="key">Venue:</span>
-      <span class="value">{{ page.venue }}</span>
-   </span>
-   <span class="pair">
-      <span class="key">Event date:</span>
-      <span class="value"><time>{{ page.event | date_to_string }}</time></span>
-   </span>
-   <span class="pair">
-      <span class="key">Speakers:</span>
-      <span class="value">{{ page.speakers }}</time></span>
-   </span>
-</span>
-{% endif %}
-
-{% if page.kind == "publication" %} 
-   <span class="post-publication">
-      <span class="authors">{{ page.authors }}.</span>
-      <span class="title">{{ page.title }}.</span>
-      <span class="info">{{ page.info }}.</span>
-      <span class="venue">{{ page.venue }}.</span>
-   </span>
-{% endif %}
-
-{% if page.kind == "blog" %} {% include post-blog.html %} 
-{% endif %}
-
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% include header.html %}
+  {% include main.html %}
+  {% include side.html %}
+  {% include footer.html %}
+</body>
+</html>

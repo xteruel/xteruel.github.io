@@ -1,6 +1,5 @@
 ---
-layout: post
-kind: teaching
+layout: teaching
 short: "ITN Tutorial 2015"
 title: "ITN Tutorial: Parallel Programming Workshop"
 date: 2015-11-18

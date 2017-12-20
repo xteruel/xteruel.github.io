@@ -1,7 +1,6 @@
 ---
 layout: default
-categories: teaching
-title: List of tutorials
+title: talks
 ---
 {% for post in site.categories["teaching"] %}
    <span class="publication-item">

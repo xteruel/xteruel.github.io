@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+  <span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
+  <p>
+  <span class="post-publication">
+     <span class="authors">{{ page.people }}.</span>
+     <span class="title">{{ page.title }}.</span>
+     <span class="info">{{ page.info }}.</span>
+     <span class="venue">{{ page.venue }}.</span>
+  </span>
+  </p>
+  {{ content }}
+</div>

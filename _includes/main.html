@@ -1,13 +1,3 @@
 <div class="main">
-   {% if page.title %}
-   <h1 class="main-title">{{ page.title }}</h1>
-   {% endif %}
-   <span class="main-date">
-   {% if page.date %}
-       <time>{{ page.date | date_to_string }}</time>
-   {% else %}
-       <time>{{ site.time | date_to_string }}</time>
-   {% endif %}
-   </span>
    {{ content }}
 </div>

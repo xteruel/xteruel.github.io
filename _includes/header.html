@@ -2,8 +2,10 @@
   <span class="header-title">
     <a href="{{ site.url }}{{ site.baseurl }}">
        {{ site.name }}
-       {% if page.categories %}
-       <span>&#39;s {{ page.categories }}</span>
+       {% if page.layout == 'default' %}
+       <span>&#39;s {{ page.title }}</span>
+       {% else %}
+       <span>&#39;s {{ page.layout }}</span>
        {% endif %}
     </a>
   </span>

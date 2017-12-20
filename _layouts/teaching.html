@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+  <span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
+  <span class="post-teaching">
+     <span class="pair">
+        <span class="key">Venue:</span>
+        <span class="value">{{ page.venue }}</span>
+     </span>
+     <span class="pair">
+        <span class="key">Event date:</span>
+        <span class="value"><time>{{ page.event | date_to_string }}</time></span>
+     </span>
+     <span class="pair">
+        <span class="key">Speakers:</span>
+        <span class="value">{{ page.speakers }}</time></span>
+     </span>
+  </span>
+  {{ content }}
+</div>

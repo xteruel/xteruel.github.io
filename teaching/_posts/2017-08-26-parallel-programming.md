@@ -1,6 +1,5 @@
 ---
-layout: post
-kind: teaching
+layout: teaching
 short: "PATC (October, 2017)"
 title: "Parallel Programming Workshop"
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"

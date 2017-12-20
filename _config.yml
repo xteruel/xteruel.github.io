@@ -17,10 +17,10 @@ author:
 # URL
 url:                "https://xteruel.github.io"
 baseurl:            ""
-#baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
+baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
 
 # Pagination
-paginate:           5
+paginate:           8
 paginate_path:      /archive/page:num/
 
 # Markdown
@@ -30,20 +30,20 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "bio"
-    url:            "/"
+  - name:           "biography"
+    url:            "/index.html"
 #  - name:           "cv"
 #    url:            "/cv"
   - name:           "archive"
-    url:            "/archive"
+    url:            "/archive/index.html"
 #  - name:           "blog"
 #    url:            "/blog"
   - name:           "publications"
-    url:            "/publications"
+    url:            "/publications/index.html"
   - name:           "teaching"
-    url:            "/teaching"
+    url:            "/teaching/index.html"
   - name:           "tags"
-    url:            "/tags"
+    url:            "/tags/index.html"
 
 # Sass
 sass:

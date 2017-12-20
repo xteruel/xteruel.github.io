@@ -1,6 +1,5 @@
 ---
-layout: post
-kind: teaching
+layout: teaching
 short: "UAM Course 2016"
 title: "UAM Course: Parallel Programming"
 date: 2016-10-02
