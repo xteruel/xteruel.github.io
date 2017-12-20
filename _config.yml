@@ -17,7 +17,7 @@ author:
 # URL
 url:                "https://xteruel.github.io"
 baseurl:            ""
-baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
+#baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
 
 # Pagination
 paginate:           8
