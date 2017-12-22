@@ -5,6 +5,22 @@ title: projects
 
 # European commission projects
 
+**INTERTWinE**
+(Agreement number 671602),
+Programming Model INTERoperability ToWards Exascale.
+Mark Bull (University of Edinburgh).
+H2020, European Commission.
+October 1st, 2015 - September 30th, 2018.
+Participation as research support engineer.
+
+**Mont-Blanc 3**
+(Agreement number 671697),
+European scalable and power efficient HPC platform based on low-power embedded technology.
+(Atos/Bull).
+H2020, European Commission.
+October 1st, 2015 - September 30th, 2018.
+Participation as research support engineer.
+
 **AXIOM** 
 (Agreement number 645496),
 Agile, eXtensible, fast I/O Module for the cyber-physical era.
