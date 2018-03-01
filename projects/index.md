@@ -2,6 +2,17 @@
 layout: default
 title: projects
 ---
+# BSC programming model's projects
+
+**[OpenMP Extensions](openmp/index.html)**
+The Programming Models team at BSC contributes to the OpenMP standard through
+its participation on the OpenMP ARB and Language committees and the different
+subcommittees (Tasking, Affinity, FORTRAN, etc.).
+
+**The OmpSs programming model**
+OmpSs is an effort to integrate features from the StarSs programming model
+developed by BSC into a single programming model, including support for
+asynchronous parallelism and heterogeneity on devices like GPUs and FPGAs.
 
 # European commission projects
 
