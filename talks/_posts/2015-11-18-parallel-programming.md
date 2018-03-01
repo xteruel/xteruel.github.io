@@ -1,5 +1,5 @@
 ---
-layout: teaching
+layout: talk
 short: "ITN Tutorial 2015"
 title: "ITN Tutorial: Parallel Programming Workshop"
 date: 2015-11-18

@@ -1,5 +1,5 @@
 ---
-layout: teaching
+layout: talk
 short: "PACT 2016"
 title: "Heterogeneous Parallel Programming with OmpSs"
 date: 2016-07-15

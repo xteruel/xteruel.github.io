@@ -1,5 +1,5 @@
 ---
-layout: teaching
+layout: talk
 short: "UAM Tutorial 2017"
 title: "Parallel Programming with OpenMP and MPI"
 venue: "Universidad Autonoma de Madrid. Madrid, SPAIN"

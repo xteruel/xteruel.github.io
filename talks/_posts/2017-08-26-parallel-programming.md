@@ -1,10 +1,9 @@
 ---
-layout: teaching
-short: "PATC (October, 2016)"
+layout: talk
+short: "PATC (October, 2017)"
 title: "Parallel Programming Workshop"
-date: 2016-08-26
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
-event: 2016-10-26
+event: 2017-10-26
 speakers: "Xavier Teruel & Xavier Martorell"
 tags: [MPI, OpenMP]
 comments: true

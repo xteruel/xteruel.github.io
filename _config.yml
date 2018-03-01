@@ -40,8 +40,8 @@ nav:
     url:            "/projects/index.html"
   - name:           "publications"
     url:            "/publications/index.html"
-  - name:           "teaching"
-    url:            "/teaching/index.html"
+  - name:           "talks"
+    url:            "/talks/index.html"
   - name:           "tags"
     url:            "/tags/index.html"
 
