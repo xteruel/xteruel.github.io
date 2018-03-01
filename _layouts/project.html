@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+
+  {% if post %}
+    {% assign cat = post.categories | first %}
+  {% else %}
+    {% assign cat = page.categories | first %}
+  {% endif %}
+
+  {{ content }}
+
+  <h3>Related publications</h3>
+
+  {% assign numPosts = site.categories["projects"] | size %}
+
+  {% for pub in site.categories["projects"] %}
+
+   {% if pub.categories contains cat %}
+   <span class="publication-item">
+      <span class="id"> [{{ numPosts }}] </span>
+      <span class="authors">{{ pub.people }}.</span>
+      <a href="{{ pub.url | prepend: site.baseurl }}">
+      <span class="title">{{ pub.title }}.</span>
+      </a>
+      <span class="info">{{ pub.info }}.</span>
+      <span class="event">{{ pub.event | date: "%b, %Y" }}.</span>
+      <span class="venue">{{ pub.venue }}.</span>
+   </span>
+   {% endif %}
+   {% assign numPosts = numPosts | minus: 1 %}
+   {% endfor %}
+
+</div>

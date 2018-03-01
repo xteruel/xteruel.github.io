@@ -5,7 +5,7 @@ title: projects
 
 # European commission projects
 
-**INTERTWinE**
+**[INTERTWinE](intertwine/index.html)**
 (Agreement number 671602),
 Programming Model INTERoperability ToWards Exascale.
 Mark Bull (University of Edinburgh).
