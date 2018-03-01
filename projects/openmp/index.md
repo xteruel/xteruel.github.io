@@ -1,6 +1,6 @@
 ---
 layout: project
-title: OpenMP Project
+title: OpenMP Extensions
 categories: [openmp]
 ---
 

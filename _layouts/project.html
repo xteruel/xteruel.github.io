@@ -12,25 +12,29 @@ layout: default
 
   {{ content }}
 
-  <h3>Related events, talks or publications</h3>
-
-  {% assign numPosts = site.categories["projects"] | size %}
+  <h3>Related entries of the project:</h3>
 
   {% for pub in site.categories["projects"] %}
 
    {% if pub.categories contains cat %}
-   <span class="publication-item">
-      <span class="id"> [{{ numPosts }}] </span>
-      <span class="authors">{{ pub.people }}.</span>
+   <ul class="publication-item"> 
+      <li>
+      {% if pub.people %} <span class="authors">{{ pub.people }}.</span>{% endif %}
       <a href="{{ pub.url | prepend: site.baseurl }}">
-      <span class="title">{{ pub.title }}.</span>
+         <span class="title">{{ pub.title }}</span>.
       </a>
-      <span class="info">{{ pub.info }}.</span>
-      <span class="event">{{ pub.event | date: "%b, %Y" }}.</span>
-      <span class="venue">{{ pub.venue }}.</span>
-   </span>
+      <span class="info">{{ pub.info }}</span>
+      {% if pub.event %}
+         {% if pub.close %}
+            <span class="event">From {{ pub.event | date_to_string }} to {{ pub.close | date_to_string }}.</span>
+         {% else %}
+            <span class="event">{{ pub.event | date_to_string }}.</span>
+         {% endif %}
+      {% endif %}
+      <span class="venue">{{ pub.venue }}</span>
+      </li>
+   </ul>
    {% endif %}
-   {% assign numPosts = numPosts | minus: 1 %}
    {% endfor %}
 
 </div>
