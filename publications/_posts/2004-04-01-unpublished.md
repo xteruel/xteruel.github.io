@@ -6,7 +6,7 @@ people: Jordi Garcia, Xavier Teruel and Oriol Caralt
 info: Unpublished
 venue: Barcelona, SPAIN
 event: 2004-04-01
-tags: [JIT, .NET]
+tags: [.NET]
 comments: true
 ---
 
