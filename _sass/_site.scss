@@ -288,7 +288,6 @@ a {
     font-size: .75rem;
     display: inline;
     list-style-type: none;
-    text-transform: lowercase;
     a {
       display: inline-block;
       margin: 1px 4px;
@@ -312,7 +311,6 @@ a {
   &-title {
 		font-size: 1.4rem;
 		font-weight: 600;
-		text-transform: lowercase;
 		padding-top: 1rem;
   }
 
