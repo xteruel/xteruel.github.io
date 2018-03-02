@@ -289,8 +289,6 @@ a {
     display: inline;
     list-style-type: none;
     text-transform: lowercase;
-
-
     a {
       display: inline-block;
       margin: 1px 4px;
@@ -319,7 +317,8 @@ a {
   }
 
   &-post {
-		padding-left: .75rem;
+		padding-left: 0rem;
+		padding-right: .75rem;
 		a {
 			color: $base-color;
 
