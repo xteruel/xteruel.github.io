@@ -340,3 +340,14 @@ a {
       display: inline;
    }
 }
+
+.icon{
+   display:inline-block;
+   opacity: 0.6;
+   padding-left: 0rem;
+   padding-right: .75rem;
+   height: 3rem;
+   &:hover {
+      opacity: 1;
+   }
+}
