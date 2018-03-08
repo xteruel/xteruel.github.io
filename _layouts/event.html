@@ -9,11 +9,23 @@ layout: default
   <span class="post-teaching">
      <span class="pair">
         <span class="key">Venue:</span>
-        <span class="value">{{ page.venue }}</span>
+        {% if page.place %}
+           {% if page.venue %}
+        <span class="value">{{ page.venue }}. {{ page.place }}.</span>
+           {% else %}
+        <span class="value">{{ page.place }}.</span>
+           {% endif %}
+        {% endif %}
      </span>
      <span class="pair">
         <span class="key">Event date:</span>
-        <span class="value"><time>{{ page.event | date_to_string }}</time></span>
+        {% if page.event %}
+           {% if page.close %}
+        <span class="value">From {{ page.event | date_to_string }} to {{ page.close | date_to_string }}.</span>
+           {% else %}
+        <span class="value">{{ page.event | date_to_string }}.</span>
+           {% endif %}
+        {% endif %}
      </span>
   </span>
   {{ content }}
