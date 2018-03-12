@@ -1,0 +1,60 @@
+.main {
+  float: left;
+  width: 70%;
+  padding: 1rem 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  @media (max-width: 1000px){
+    width: 100%;
+  }
+  &-title {
+    margin-bottom: 0rem;
+  }
+  &-date {
+    margin-bottom: .5rem;
+    color: $base-lighten-color;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+}
+.post {
+  &-teaching {
+     padding: 1rem 0rem;
+     display: block;
+  }
+  &-title {
+    margin-bottom: 0rem;
+  }
+  &-date {
+    margin-bottom: .5rem;
+    color: $base-lighten-color;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  &-tag {
+    margin-bottom: 1rem;
+    .tag {
+      display: inline-block;
+      margin: 4px;
+      margin-left: 0px;
+      color: #fff;
+      background-color: $base-lighten-color;
+      text-decoration: none;
+			border-radius: 3px;
+    }
+    li {
+      font-size: .75rem;
+      display: inline;
+      list-style-type: none;
+      text-transform: lowercase;
+    }
+    span {
+      float: left;
+			padding: .5px 5px;
+    }
+  }
+  &-share {
+    margin-bottom: 1rem;
+  }
+}

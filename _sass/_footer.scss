@@ -1,0 +1,22 @@
+.footer {
+  clear: both;
+  width: 100%;
+  padding: 2rem 0rem 4rem 0rem;
+  @media (max-width: 1000px) {
+    padding: 1rem 0rem 2rem 0rem;
+    width: 100%;
+  }
+  margin-left:  auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: .75rem;
+
+  &-link {
+    margin: .2rem;
+
+    a {
+      color: $base-color;
+      margin: 4px;
+    }
+  }
+}
