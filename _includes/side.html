@@ -2,6 +2,9 @@
   {% if site.posts.size == 0 %}
       <!-- No requested news for this page or no news found -->
   {% else %}
+    <a style="float:right" class="icon" target="_blank" href="feed.xml">
+       <img src="{{ site.baseurl }}/icons/feed-rss.png">
+    </a>
     <h1>News & Events</h1>
     {% for post in site.posts limit: 6 %}
       <a href="{{ post.url | prepend: site.baseurl }}">
