@@ -46,14 +46,14 @@
       margin: 1px 4px;
       color: #fff;
       background-color: lighten($base-color,50);
-			border-radius: 3px;
+      border-radius: 3px;
       span {
         float: left;
         padding: .5px 5px;
       }
       .count {
         background-color: lighten($base-color,40);
-				border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;
       }
       &:hover {
         background-color: lighten($base-color,40);
@@ -62,9 +62,9 @@
   }
 
   &-title {
-		font-size: 1.4rem;
-		font-weight: 600;
-		padding-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-top: 1rem;
   }
 
   &-post {
@@ -94,17 +94,6 @@
    }
 }
 
-.icon{
-   display:inline-block;
-   opacity: 0.6;
-   padding-left: 0rem;
-   padding-right: .75rem;
-   height: 1.8rem;
-   &:hover {
-      opacity: 1;
-   }
-}
-
 .logo{
    display:inline-block;
    opacity: 0.6;
@@ -115,6 +104,7 @@
       opacity: 1;
    }
 }
+
 .icon{
    display:inline-block;
    opacity: 0.4;

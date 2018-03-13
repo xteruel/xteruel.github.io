@@ -47,19 +47,3 @@
   }
 }
 
-.header-small {
-	text-align: left;
-	margin-bottom: .75rem;
-	font-size: .75rem;
-	font-weight: 600;
-	text-transform: uppercase;
-
-	a {
-		color: $base-color;
-
-		&:hover,
-		&:focus {
-			text-decoration: none;
-		}
-	}
-}
