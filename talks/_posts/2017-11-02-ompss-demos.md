@@ -7,8 +7,8 @@ venue: "Colorado Convention Center"
 place: "Denver, COLORADO" 
 info: ""
 event: 2017-11-14
-time1: 11:00
-close:
+time1: 
+close: 2017-11-16
 time2:
 tags: []
 category: []
@@ -16,7 +16,7 @@ comments: true
 ---
 
 Two short *demos* at the exhibition center showing the basic concepts of the
-OmpSs programming model. See you at the BSC booth: 1975.
+OmpSs programming model. See you in the BSC booth (#1975).
 
 > * Tuesday: November 14th, 11:00 am at BSC booth
 > * Thursday: November 16th, 11:00 am at BSC booth
