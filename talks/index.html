@@ -1,0 +1,27 @@
+---
+layout: default
+title: talks
+---
+{% assign numPosts = site.categories["talks"] | size %}
+{% for post in site.categories["talks"] %}
+   {% if numPosts < 10 %}
+     {% assign ID = numPosts | to_string | prepend: 0 %}
+   {% else %}
+     {% assign ID = numPosts | to_string %}
+   {% endif %}
+   <span class="publication-item">
+      <span class="id">[{{ ID }}]</span>
+      <span class="title">{{ post.title }}.</span>
+      {% if post.close %}
+      <span class="event">From {{ post.event | date: "the %d of %B" }} through {{ post.close | date: "the %d of %B, %Y" }}.</span>
+      {% else %}
+      <span class="event">{{ post.event | date: "%d of %B, %Y" }}.</span>
+      {% endif %}
+      <span class="venue">
+        {% if post.venue %}{{ post.venue }}.{% endif %}
+        {% if post.place %}{{ post.place }}.{% endif %}
+      </span>
+      <span class="authors">Speakers: {{ post.people }}.</span>
+   </span>
+   {% assign numPosts = numPosts | minus: 1 %}
+{% endfor %}
