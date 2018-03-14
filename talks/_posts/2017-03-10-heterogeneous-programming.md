@@ -6,7 +6,7 @@ description: "The tutorial will motivate the audience on the need for portable a
 date: 2017-04-10
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
 event: 2017-05-10&11
-speakers: "Xavier Martorell & Xavier Teruel"
+people: "Xavier Martorell & Xavier Teruel"
 tags: [MPI, OmpSs]
 comments: true
 share: true

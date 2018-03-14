@@ -5,7 +5,7 @@ title: "UAM Course: Parallel Programming"
 date: 2016-10-02
 venue: "Universidad Autonoma de Madrid. Madrid, SPAIN"
 event: 2016-11-02
-speakers: "Xavier Teruel & Xavier Martorell"
+people: "Xavier Teruel & Xavier Martorell"
 tags: [OpenMP]
 comments: true
 share: true

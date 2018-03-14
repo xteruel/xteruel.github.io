@@ -4,7 +4,7 @@ short: "UAM Tutorial 2017"
 title: "Parallel Programming with OpenMP and MPI"
 venue: "Universidad Autonoma de Madrid. Madrid, SPAIN"
 event: 2017-11-02
-speakers: "Xavier Teruel & Xavier Martorell"
+people: "Xavier Teruel & Xavier Martorell"
 tags: [OpenMP]
 comments: true
 share: true

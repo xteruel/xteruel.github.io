@@ -5,7 +5,7 @@ title: "ITN Tutorial: Parallel Programming Workshop"
 date: 2015-11-18
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
 event: 2016-01-18
-speakers: "Xavier Teruel & Xavier Martorell"
+people: "Xavier Teruel & Xavier Martorell"
 tags: [OmpSs, CUDA]
 comments: true
 share: true

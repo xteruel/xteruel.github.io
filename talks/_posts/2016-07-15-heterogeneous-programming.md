@@ -5,7 +5,7 @@ title: "Heterogeneous Parallel Programming with OmpSs"
 date: 2016-07-15
 venue: Technion University. Haifa, ISRAEL
 event: 2016-09-15
-speakers: "Xavier Martorell & Xavier Teruel"
+people: "Xavier Martorell & Xavier Teruel"
 tags: [OmpSs, CUDA, FPGAs]
 comments: true
 share: true

@@ -5,7 +5,7 @@ short: "UAM Tutorial (2015)"
 date: 2015-09-30
 venue: "Universidad Autonoma de Madrid. Madrid, SPAIN"
 event: 2015-11-30
-speakers: "Xavier Teruel & Xavier Martorell"
+people: "Xavier Teruel & Xavier Martorell"
 tags: [OpenMP]
 comments: true
 share: true

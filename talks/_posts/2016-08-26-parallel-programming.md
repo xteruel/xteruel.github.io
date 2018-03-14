@@ -5,7 +5,7 @@ title: "Parallel Programming Workshop"
 date: 2016-08-26
 venue: "Barcelona Supercomputing Center. Barcelona, SPAIN"
 event: 2016-10-26
-speakers: "Xavier Teruel & Xavier Martorell"
+people: "Xavier Teruel & Xavier Martorell"
 tags: [MPI, OpenMP]
 comments: true
 share: true
