@@ -4,21 +4,21 @@ title: publications
 ---
 {% assign numPosts = site.categories["publications"] | size %}
 {% for pub in site.categories["publications"] %}
-   <span class="publication-item">
+   <a href="{{ pub.url | prepend: site.baseurl }}">
+   <span class="list-item">
       {% if numPosts < 10 %}
          {% assign ID = numPosts | to_string | prepend: 0 %}
       {% else %}
          {% assign ID = numPosts | to_string %}
       {% endif %}
       <span class="id"> [{{ID}}] </span>
-      <span class="authors">{{ pub.people }}.</span>
-      <a href="{{ pub.url | prepend: site.baseurl }}">
+      <span class="people">{{ pub.people }}.</span>
       <span class="title">{{ pub.title }}.</span>
-      </a>
       <span class="info">{{ pub.info }}.</span>
-      <span class="event">{{ pub.event | date: "%b, %Y" }}.</span>
+      <span class="event">{{ pub.event | date: "%B, %Y" }}.</span>
       <span class="venue">{{ pub.venue }}.</span>
    </span>
+   </a>
    {% assign numPosts = numPosts | minus: 1 %}
 {% endfor %}
 

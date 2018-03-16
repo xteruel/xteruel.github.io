@@ -17,9 +17,9 @@ layout: default
   {% for pub in site.categories["projects"] %}
 
    {% if pub.categories contains cat %}
-   <ul class="publication-item"> 
+   <ul class="list-item"> 
       <li>
-      {% if pub.people %} <span class="authors">{{ pub.people }}.</span>{% endif %}
+      {% if pub.people %} <span class="people">{{ pub.people }}.</span>{% endif %}
       <a href="{{ pub.url | prepend: site.baseurl }}">
          <span class="title">{{ pub.title }}</span>.
       </a>

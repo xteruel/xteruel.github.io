@@ -9,7 +9,7 @@ title: talks
    {% else %}
      {% assign ID = numPosts | to_string %}
    {% endif %}
-   <span class="publication-item">
+   <span class="list-item">
       <span class="id">[{{ ID }}]</span>
       <span class="title">{{ post.title }}.</span>
       {% if post.close %}
@@ -21,7 +21,7 @@ title: talks
         {% if post.venue %}{{ post.venue }}.{% endif %}
         {% if post.place %}{{ post.place }}.{% endif %}
       </span>
-      <span class="authors">Speakers: {{ post.people }}.</span>
+      <span class="people">Speakers: {{ post.people }}.</span>
    </span>
    {% assign numPosts = numPosts | minus: 1 %}
 {% endfor %}

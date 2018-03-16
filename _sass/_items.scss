@@ -1,7 +1,12 @@
-.publication-item {
+.list-item {
    padding: 0.2rem 0rem;
    display: block;
-   .authors {
+   &:hover {
+     background-color: $background-over-color;
+     border-color: transparent;
+     border-radius: 10px;
+   }
+   .people {
       font-style: italic;
    }
    .title {
@@ -30,7 +35,7 @@
       text-transform: uppercase;
     }
     .excerpt {
-		color: lighten($base-color, 20);
+      color: lighten($base-color, 20);
       margin-bottom: .25rem;
       font-size :1rem;
     }
