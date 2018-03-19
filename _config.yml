@@ -55,5 +55,8 @@ sass:
   sass_dir:         _sass
   style:            :compressed
 
+# Other directories
+include: [_pages]
+
 # Gems
 gems: [jekyll-paginate]
