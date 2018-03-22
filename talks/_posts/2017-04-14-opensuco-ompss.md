@@ -5,7 +5,7 @@ title: "Fundamentals of OmpSs at ISC 2017"
 short: "OmpSs at ISC 2017"
 venue: "Candela Room at Marriott Hotel"
 place: "Frankfurt, GERMANY" 
-info: "OpenSuCo workshop"
+info: "Presentation within the OpenSuCo workshop"
 event: 2017-06-22
 time1: 10:20
 close:
