@@ -17,11 +17,14 @@ title: talks
       {% else %}
       <span class="event">{{ post.event | date: "%d of %B, %Y" }}.</span>
       {% endif %}
+      <span class="info">
+         {% if post.info %}{{ post.info }}.{% endif %}
+      </span>
       <span class="venue">
         {% if post.venue %}{{ post.venue }}.{% endif %}
         {% if post.place %}{{ post.place }}.{% endif %}
       </span>
-      <span class="people">Speakers: {{ post.people }}.</span>
+      <span class="people">Speaker(s): {{ post.people }}.</span>
    </span>
    {% assign numPosts = numPosts | minus: 1 %}
 {% endfor %}
