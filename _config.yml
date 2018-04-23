@@ -20,7 +20,7 @@ author:
 #  id:               ""
 
 # URL
-url:                "https://xteruel.github.io"
+url:                "http://xavierteruel.com"
 baseurl:            ""
 #baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
 
@@ -36,19 +36,19 @@ kramdown:
 # Navigation
 nav:
   - name:           "home"
-    url:            "/index.html"
+    url:            "/"
 #  - name:           "cv"
 #    url:            "/cv"
   - name:           "archive"
-    url:            "/archive/index.html"
+    url:            "/archive/"
   - name:           "projects"
-    url:            "/projects/index.html"
+    url:            "/projects/"
   - name:           "publications"
-    url:            "/publications/index.html"
+    url:            "/publications/"
   - name:           "talks"
-    url:            "/talks/index.html"
+    url:            "/talks/"
   - name:           "tags"
-    url:            "/tags/index.html"
+    url:            "/tags/"
 
 # Sass
 sass:
