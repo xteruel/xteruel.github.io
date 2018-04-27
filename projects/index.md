@@ -4,7 +4,7 @@ title: projects
 ---
 # BSC programming model's projects
 
-**[OpenMP Extensions](openmp/index.html)**
+**[OpenMP Extensions](openmp)**
 The Programming Models team at BSC contributes to the OpenMP standard through
 its participation on the OpenMP ARB and Language committees and the different
 subcommittees (Tasking, Affinity, FORTRAN, etc.).
@@ -16,7 +16,7 @@ asynchronous parallelism and heterogeneity on devices like GPUs and FPGAs.
 
 # European commission projects
 
-**[INTERTWinE](intertwine/index.html)**
+**[INTERTWinE](intertwine)**
 (Agreement number 671602),
 Programming Model INTERoperability ToWards Exascale.
 Mark Bull (University of Edinburgh).
