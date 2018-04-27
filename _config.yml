@@ -24,6 +24,9 @@ url:                "http://xavierteruel.com"
 baseurl:            ""
 #baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
 
+# Permalink
+permalink: /:categories/:year/:month/:title/
+
 # Pagination
 paginate:           10
 paginate_path:      /archive/page:num/
