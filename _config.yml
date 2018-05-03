@@ -25,7 +25,7 @@ baseurl:            ""
 #baseurl:            "/home/xteruel/Documents/web/xteruel.github.io/_site"
 
 # Permalink
-permalink: /:categories/:year/:month/:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 # Pagination
 paginate:           10
@@ -40,16 +40,16 @@ kramdown:
 nav:
   - name:           "home"
     url:            "/"
-#  - name:           "cv"
-#    url:            "/cv"
+  - name:           "hpc"
+    url:            "/hpc/"
   - name:           "archive"
     url:            "/archive/"
   - name:           "projects"
-    url:            "/projects/"
+    url:            "/hpc/projects/"
   - name:           "publications"
-    url:            "/publications/"
+    url:            "/hpc/publications/"
   - name:           "talks"
-    url:            "/talks/"
+    url:            "/hpc/talks/"
   - name:           "tags"
     url:            "/tags/"
 
