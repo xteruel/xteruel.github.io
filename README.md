@@ -1,3 +1,3 @@
 # xteruel.github.io
 
-   Personal site: https://xteruel.github.io
+   Personal site: www.xavierteruel.com
