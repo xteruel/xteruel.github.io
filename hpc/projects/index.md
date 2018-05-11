@@ -1,6 +1,7 @@
 ---
 layout: default
 title: projects
+side: 7
 ---
 # BSC programming model's projects
 

@@ -1,13 +1,19 @@
 <div class="side">
 <div class="box">
+  {% if page.side %}
+     {% assign numPosts = page.side %}
+  {% else %}
+     {% assign numPosts = 6 %}
+  {% endif %}
+
   {% if site.posts.size == 0 %}
-      <!-- No requested news for this page or no news found -->
+     <!-- No requested news for this page or no news found -->
   {% else %}
     <a style="float:right" class="icon" target="_blank" href="{{ site.baseurl }}/feed.xml">
        <img src="{{ site.baseurl }}/assets/icons/feed-rss.png">
     </a>
     <h1>News & Events</h1>
-    {% for post in site.posts limit: 6 %}
+    {% for post in site.posts limit: numPosts %}
       <a href="{{ post.url | prepend: site.baseurl }}">
         <span class="side-title"> {{ post.short }} </span>
       </a>
