@@ -13,11 +13,9 @@ close:
 time2:
 #published:
 #permalink:
-language:
-comments:
-length:
 #categories:
-#tags:
-#page:
+#lang:
 #date:
+#tags:
+#side:
 ---
